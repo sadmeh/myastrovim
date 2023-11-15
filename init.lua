@@ -91,7 +91,7 @@ return {
     vim.o.shellxescape = ''
     vim.o.shellxquote = ''
     vim.o.shellpipe = '2>&1| tee'
-end
+  end
   end,
 }
 

@@ -10,6 +10,13 @@ return {
   --   end,
   --   TODO: ad more plugins
   {
+     "mhartington/formatter.nvim",
+    dependencies= "princejoogie/mason-formatter.nvim",
+    opts={
+
+    },
+  },
+  {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {
@@ -23,4 +30,11 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   }, -- },
+  {
+    "jose-elias-alvarez/null-ls.nvim", enabled=false,
+     
+  },
+  {
+        "jay-babu/mason-null-ls.nvim",enabled=false,
+  }
 }
