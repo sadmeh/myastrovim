@@ -6,9 +6,9 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.typescript" },
-  {import = "astrocommunity.motion.hop-nvim"},
+  { import = "astrocommunity.motion.hop-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
- {
+  {
     "phaazon/hop.nvim",
     opts = {},
     keys = {
